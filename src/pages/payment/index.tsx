@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Home from '@/modules/home/presentation/interface/home';
+import Payment from '../../../src/modules/payment/presentation/interface/payment';
 
-const PartnerListPage = () => (
+const PaymentPage = () => (
   <>
-    <Home />
+    <Payment />
   </>
 );
 
-export default PartnerListPage;
+export default PaymentPage;

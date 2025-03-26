@@ -1,12 +1,11 @@
-import { loadable } from '@/shared/utils/loadable';
-import { stringPermission } from '@/shared/utils/permission';
+import { loadable } from '../../../src/shared/utils/loadable';
 
-const PartnerListPage = loadable(() => import('./index'));
+const HomePage = loadable(() => import('./index'));
 
 const config = {
-  key: stringPermission.partnerManagementPartnerList,
-  path: '/east-pay/partner-management/partner/list',
-  component: <PartnerListPage />,
+  key: 'home',
+  path: '/',
+  component: <HomePage />,
 };
 
 export default config;

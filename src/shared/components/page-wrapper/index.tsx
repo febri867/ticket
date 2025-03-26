@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Wrapper } from './style';
 
-const PageWrapper: React.FC = ({ children }) => {
+const PageWrapper = ({children}) => {
   return <Wrapper>{children}</Wrapper>;
 };
 

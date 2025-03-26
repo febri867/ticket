@@ -1,10 +1,11 @@
-import { loadable } from '@/shared/utils/loadable';
+import { loadable } from  '../../../src/shared/utils/loadable';
 
-const HomePage = loadable(() => import('./index'));
+const PaymentPage = loadable(() => import('./index'));
 
 const config = {
-  path: '/',
-  component: <HomePage />,
+  key: 'payment',
+  path: '/payment',
+  component: <PaymentPage />,
 };
 
 export default config;

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import PartnertList from '@/modules/partner/presentation/interface/partner-list';
+import Home from '../../../src/modules/home/presentation/interface/home';
 
-const PartnerListPage = () => (
+const HomePage = () => (
   <>
-    <PartnertList />
+    <Home />
   </>
 );
 
-export default PartnerListPage;
+export default HomePage;
